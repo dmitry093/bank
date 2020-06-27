@@ -25,4 +25,5 @@ public class Branch {
 
     @Column
     private String address;
+
 }

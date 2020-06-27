@@ -9,6 +9,7 @@ services:
       POSTGRES_PASSWORD: qwe123
     ports:
       - 5432:5432
+    container_name: postgres
   api:
     image: dmitry093/task3
     ports:
