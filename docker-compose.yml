@@ -12,4 +12,4 @@ services:
   api:
     image: dmitry093/task3
     ports:
-      - 8083:8083
+      - 8082:8083

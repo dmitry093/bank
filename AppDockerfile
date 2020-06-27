@@ -2,5 +2,5 @@ FROM openjdk:11-jdk-slim-stretch
 
 CMD java \
     -jar /app/bank.jar
-ENV MAIN_DB_HOST alfa-battle-task3
+ENV MAIN_DB_HOST task3_alfa-battle-task3
 COPY build/libs/bank-*.jar /app/bank.jar
